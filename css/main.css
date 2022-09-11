@@ -1,0 +1,90 @@
+
+body{
+    font-family: Avenir !important;
+    position: relative;
+}
+
+a{
+    color: SteelBlue !important;
+}
+
+.navbar .nav-item {
+    color: SteelBlue;
+    font-family: Avenir;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar .nav-item:hover {
+    color: DodgerBlue;
+}
+
+.nav-tabs-nostyle > a.active {
+    color: #AED6F1!important;
+    /*background-color: #AED6F1!important;*/
+}
+
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    padding-top: 50px
+}
+
+.anchor {
+    padding-top: 100px;
+    margin-top: -70px
+}
+
+
+#credits{
+    font-size: 0.7em;
+}
+
+#links{
+    font-size: 1.75em;
+}
+
+#name{
+    font-size: 4em !important;
+}
+
+
+
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+}
+
+
+
+@media (max-width: 768px) {
+        h3{ font-size: 1.5em !important; }
+        h4{ font-size: 1.5em !important; }
+        #links{
+            font-size: 1.0em !important;
+        }
+        #name{
+            font-size: 1.5em !important;
+        }
+
+        .navbar .nav-item {
+            font-size: 1em !important;
+        }
+
+        .caption{
+            font-size: 0.5em !important;
+        }
+
+}
+
+.text-large {
+  font-size: 150%;
+}
+
+
